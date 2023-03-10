@@ -1,0 +1,42 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+FE-CRUD-EMPLOYEE/dist
+FE-CRUD-EMPLOYEE/tmp
+FE-CRUD-EMPLOYEE/out-tsc
+FE-CRUD-EMPLOYEE/bazel-out
+
+# Node
+FE-CRUD-EMPLOYEE/node_modules
+FE-CRUD-EMPLOYEE/npm-debug.log
+FE-CRUD-EMPLOYEE/yarn-error.log
+
+# IDEs and editors
+FE-CRUD-EMPLOYEE/.idea/
+FE-CRUD-EMPLOYEE/.project
+FE-CRUD-EMPLOYEE/.classpath
+FE-CRUD-EMPLOYEE.c9/
+*.launch
+FE-CRUD-EMPLOYEE.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+FE-CRUD-EMPLOYEE/.vscode/*
+FE-CRUD-EMPLOYEE/!.vscode/settings.json
+FE-CRUD-EMPLOYEE/!.vscode/tasks.json
+FE-CRUD-EMPLOYEE!.vscode/launch.json
+FE-CRUD-EMPLOYEE/!.vscode/extensions.json
+FE-CRUD-EMPLOYEE/.history/*
+
+# Miscellaneous
+FE-CRUD-EMPLOYEE/.angular/cache
+FE-CRUD-EMPLOYEE/.sass-cache/
+FE-CRUD-EMPLOYEE//connect.lock
+FE-CRUD-EMPLOYEE//coverage
+FE-CRUD-EMPLOYEE//libpeerconnection.log
+FE-CRUD-EMPLOYEEtestem.log
+FE-CRUD-EMPLOYEE/typings
+
+# System files
+FE-CRUD-EMPLOYEE/.DS_Store
+FE-CRUD-EMPLOYEE/Thumbs.db

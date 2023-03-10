@@ -1,0 +1,18 @@
+<div class="title">
+  <h1>Ver Empleado</h1>
+</div>
+<app-spinner *ngIf="loading"></app-spinner>
+<!-- <div *ngIf="employee$ | async as employee" class="container"> -->
+<div *ngIf="employee != null" class="container">
+  <mat-card class="card">
+    <mat-card-title>{{ employee.nombres}}</mat-card-title>
+    <mat-card-content>
+      <p><strong>Apellidos:</strong> {{ employee.apellidos }}</p>
+      <p><strong>Edad:</strong> {{ employee.edad }} años</p>
+      <p><strong>Dirección:</strong> {{ employee.direccion }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button routerLink="/listarEmpleados" mat-raised-button>Volver</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
